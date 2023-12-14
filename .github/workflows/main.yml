@@ -10,4 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     environment: test
     steps:
-      - name: deploy
+    - name: 'Checkout GitHub Action'
+      uses: actions/checkout@v3
